@@ -1,0 +1,229 @@
+
+/************* tag reference */
+
+
+body{
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+/********************** class references  and  id references*/
+
+/* *****************************colored and white sections */
+
+.colored-section{
+  background-color:#ff4c68;
+  color:#fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/************************* title section */
+
+/* whole title section */
+
+#title{
+    text-align: left;
+}
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+
+.navigationpadding
+{
+  padding: 0 0 4rem;
+}
+
+/* brand name */
+.navbar-brand
+{
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+
+/* items in the navigation bar */
+.nav-item{
+  padding: 0 15px 0 15px;
+  font-weight: 500;
+}
+
+/* download buttons */
+.download-buttons-title{
+  margin: 5% 5% 0 0;
+}
+
+
+/* main title styling */
+.title-font
+{
+  font-weight:900;
+  color: white;
+  line-height: 5.5rem;
+  font-size: 3.5rem;
+}
+
+/* title image */
+.title-image{
+  width:60%;
+  right:20%;
+  transform:rotate(25deg);
+  position:absolute;
+}
+
+.titleImageDiv{
+  position:relative;
+}
+
+@media (max-width:1172px){
+  #title{
+    text-align:center;
+  }
+
+  .title-image{
+    padding-top:2rem;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* section 2 features */
+/* padding */
+#features{
+  padding: 10% 15%;
+  position:relative;
+}
+
+/* alignment */
+.features-alignment{
+  padding: 0 4% 0;
+}
+
+/* distance between items */
+.feature-item-titles{
+  padding-top: 1rem;
+  font-size:1.5rem;
+  font-weight: 800;
+}
+
+.feature-item-captions{
+  color:#8f8f8f;
+}
+/* item images */
+.icon{
+  color:#ef8172;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+
+/***************** testimonials */
+
+/* testimonial heading */
+#testimonials{
+  background-color:#ef8172;
+
+}
+
+/* items inthe carousel */
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* testimonial phrase */
+.testimonial-heading{
+  font-family: "Montserrat";
+  font-weight:900;
+  font-size:3rem;
+  line-height:1.5;
+
+}
+
+/* testimonial image of the dog */
+.testimonials-image{
+  width:10%;
+  border-radius:50%;
+  margin:1rem 1rem;
+}
+
+/******************** press section */
+
+#press{
+
+  padding-bottom: 3%;
+  background-color:#ef8172;
+}
+
+.press-images{
+  width:15%;
+  margin: 2rem 1rem;
+}
+
+/******************** pricing cards */
+#pricing{
+  padding:5rem;
+
+}
+
+.pricing-headings{
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+/* cards */
+.cardPadding{
+  padding:0;
+  margin:2rem;
+}
+
+.cardsPaddingFromtop{
+  margin:3% 0;
+}
+
+.card-title-font{
+  font-size:2rem;
+}
+
+.cardsLining{
+  margin-top: 2.56rem;
+}
+
+
+/* cta :call to action */
+
+#cta{
+  padding:5rem 0;
+  padding: 5% 20%;
+}
+
+.ctaHeading{
+  font-family: "Montserrat",sans-serif;
+  font-weight:900;
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+.download-buttons-cta{
+  margin:5% 2% 0;
+}
+
+/* footer */
+#footer{
+  padding-top:5%;
+}
+
+.footerImages{
+  padding:.5rem;
+}
